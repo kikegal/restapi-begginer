@@ -9,11 +9,12 @@ app.set('json spaces', 2)
 //Middleware
 app.use(express.json())
 app.use(morgan('dev'))
-//app.use(express.urlencoded({extended:false}))
+app.use(express.urlencoded({extended:false}))
 
 //routes
 app.use(require('./routes/index'))
 app.use('/api/movies',require('./routes/movies'))
+app.use('/api/users', require('./routes/users'))
 
 
 
