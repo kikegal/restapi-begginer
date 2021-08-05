@@ -1,0 +1,16 @@
+[
+    {
+        "id":"1",
+        "titulo":"La Murga",
+        "Artista":"Hecto Lavoe",
+        "ano": "1980",
+        "discos": "20.000"
+    },
+    {
+        "id":"2",
+        "titulo":"Concepcion",
+        "Artista":"Roberto Roena",
+        "ano": "1984",
+        "discos": "10.000"
+    }
+]
